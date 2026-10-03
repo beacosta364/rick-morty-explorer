@@ -50,7 +50,3 @@ npm run build
 Rick and Morty API
 
 https://rickandmortyapi.com/
-
-## Autor
-
-Brayan Acosta

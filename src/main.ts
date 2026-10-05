@@ -4,6 +4,16 @@ import { createCharacterCard } from "./components/characterCard";
 import type { CharacterResponse } from "./interfaces/characterResponse";
 
 const app = document.querySelector<HTMLDivElement>("#app");
+/*
+¿Encontró el elemento?
+       │
+   ┌───┴───┐
+   │       │
+   Sí      No
+   │       │
+   ▼       ▼
+  div     null
+*/
 
 let currentPage = 1;
 let totalPages = 0;
